@@ -1,1 +1,8 @@
+from PIL import Image
 
+# Tạo một hình ảnh trắng với kích thước 200x200 pixels
+width, height = 200, 200
+image = Image.new("RGB", (width, height), "white")
+
+# Lưu hình ảnh thành một tập tin
+image.save("white_image.png")
